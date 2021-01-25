@@ -16,8 +16,8 @@ mv org.openhab.binding.pirf-3.1.0-SNAPSHOT.jar /usr/share/openhab/addons
 Open the OpenHAB webpage and wait a few seconds for it to update.  
 Open the Things menu and add a new thing -> you should see the new binding.  
 
-**Please make sure to use the BCM layout for refencing the GPIO pins, not the others.  
-Disclamer: I don't know if it works with wiringPi ports on other SBCs such as OrangePi. ** 
+**Please make sure to use the BCM layout for refencing the GPIO pins, not the others.**  
+**Disclamer: I don't know if it works with wiringPi ports on other SBCs such as OrangePi. ** 
 
 **Credits to:**
 * Till Nenz for the Unitec library.  

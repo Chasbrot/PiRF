@@ -2,7 +2,7 @@
 433MHz Binding for OpenHAB on Raspberry Pi
 
 # Install
-Connect a 433MHz transmitter to the Pi.
+Connect a 433MHz transmitter to the Pi. Make sure you use a antenna otherwise you have almost no range.
 ![Example of a transmitter](https://electronics-diy.com/schematics/1344/complete-guide-for-rf-433mhz-transmitter-receiver-module-with-arduino-2.jpg)
 Download and install the wiringPi library.
 ```
@@ -18,6 +18,10 @@ Open the Things menu and add a new thing -> you should see the new binding.
 
 **Please make sure to use the BCM layout for refencing the GPIO pins, not the others.**  
 **Disclamer: I don't know if it works with wiringPi ports on other SBCs such as OrangePi.** 
+
+# Code capturing
+You can find the codes of many RF switches online.  
+If not you can use the 433Utils library https://github.com/ninjablocks/433Utils on a Arduino to capture codes. Make sure to use the advanced sketch if you don't pick up any signals.
 
 **Credits to:**
 * Till Nenz for the Unitec library.  

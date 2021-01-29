@@ -3,7 +3,7 @@
 
 # Install
 Connect a 433MHz transmitter to the Pi. Make sure you use a antenna otherwise you have almost no range.
-![Example of a transmitter](https://electronics-diy.com/schematics/1344/complete-guide-for-rf-433mhz-transmitter-receiver-module-with-arduino-2.jpg)
+![Example of a transmitter](https://hendrikpriemer.de/wp-content/uploads/2016/06/RaspberryPi_433mhzSenderVerbindung.png)
 Download and install the wiringPi library.
 ```
 apt install wiringpi 

@@ -13,7 +13,7 @@ Download the .jar file and place it into your addons folder.
 wget https://github.com/Chasbrot/PiRF/blob/main/org.openhab.binding.pirf-3.1.0-SNAPSHOT.jar
 mv org.openhab.binding.pirf-3.1.0-SNAPSHOT.jar /usr/share/openhab/addons
 ```
-Open the OpenHAB webpage and wait a few seconds for it to update.  
+Open the OpenHAB webpage and wait a few seconds for it to update or restart OpenHAB.  
 Open the Things menu and add a new thing -> you should see the new binding.  
 
 **Please make sure to use the BCM or wPi layout for refencing the GPIO pins, not the pyhsical.**  

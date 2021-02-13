@@ -15,6 +15,7 @@ mv org.openhab.binding.pirf-3.1.0-SNAPSHOT.jar /usr/share/openhab/addons
 ```
 Open the OpenHAB webpage and wait a few seconds for it to update or restart OpenHAB.  
 Open the Things menu and add a new thing -> you should see the new binding.  
+The example above uses GPIO 0.
 
 **Please make sure to use the wPi layout for refencing the GPIO pins, not the pyhsical or BCM.**  
 **Disclamer: I don't know if it works with wiringPi ports on other SBCs such as OrangePi.** 
